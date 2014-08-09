@@ -1,8 +1,5 @@
-cookiemonster
-=============
+# How I Became A Cookie Monster
 
-How I Became A Cookie Monster
-# How I became a Cookie Monster
 ## User to Complainer to Helper to Core: the evolution of open source software development (and howto distributed teams along the way)
 
 ## Abstract
