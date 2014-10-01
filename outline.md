@@ -1,0 +1,63 @@
+- 0.0 (10)
+  - title
+  - TODO: cookiemonster gif
+- 0.1
+  - about me
+  - TODO: profile pictures
+  - 0.2
+    - polyglot
+  - 0.3
+    - i :heart: CLIs
+    - 0.3.{1..4}: examples 
+    - 0.3.5: lightning talk: how i learned to stop worrying
+
+- 1.0 (7)
+  - cookiecutter overview
+  - 1.1
+    - stats
+  - 1.2
+    - why i :heart: cookiecutter as a programming user
+  - 1.3
+    - why i :heart: cookiecutter as a programmer
+  - 1.4
+    - :heart: code / community
+  - 1.5
+    - why: microservice
+  - 1.6
+    - why: client instances
+
+- 2.0 (4)
+  - origin story
+  - 2.1
+    - from cookiecutter import generate 
+  - 2.2
+    - changes::start
+  - 2.3
+    - changes::flow
+
+- 3.0 (6)
+  - team open source
+  - 3.1
+    - triage
+  - 3.2
+    - review
+  - 3.3
+    - code
+  - 3.4
+    - AUTHORS
+  - 3.5
+    - core
+
+- 4.0 (1)
+  - extra context pr tour
+
+- 5.0 (3)
+  - summary
+      - 3 things
+      - deliver on the abstract
+      - callbacks
+  - 5.1
+    - questions
+  - 5.2
+    - credits
+
