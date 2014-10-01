@@ -165,6 +165,7 @@ Largely on the back of extra context triage, I get the bit.
 Now to wield it.
 ---
 # extra context
+https://github.com/audreyr/cookiecutter/pull/260
 ???
 ---
 # summary
