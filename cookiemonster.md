@@ -1,40 +1,45 @@
 section: intro
-slides: 10
 background-image: url(resources/sesame-street-cookie-monster-wallpapers_35947_1680x1050.jpg)
-class: inverse, center
+class: inverse, bottom
 
 # cookiemonster
 
 http://michaeljoseph.github.io/cookiemonster
-
-@michaeljoseph
-
 ???
-**0.0**
+**0.0.1**
 
-This talk is about 3 things:
+3 things:
 
 cookiecutter
 
-open source and other distributed software development methodologies
+open source and distributed software development workflows
 
-engaging with a technical community
+automation with CLIs
+
+---
+background-image: url(resources/google-cookie_00405143.jpg)
+class: center
+
+## User to Complainer to Helper to Core
+
+???
+**0.0.2**
+
+Open Source Project Roles
 
 ---
 background-image: url(resources/puppet-blue-awesome.jpg)
+class: inverse, center, middle
 
-# cookiemonster
-### the evolution of open source software development community contribution
----
-background-image: url(resources/google-cookie_00405143.jpg)
-class: inverse, center
+## an evolution
+## of open source software development
+## community contribution
 
-## User to Complainer to Helper to Core: the evolution of open source software development communities
 ???
+**0.0.3**
 
 ---
 class: inverse
-title: about-me
 # about me
 ![profile](resources/mj.png)
 ![profile](resources/juggler.jpeg)
@@ -69,16 +74,23 @@ Ruby (shush)
 **0.2**
 
 The more language you see, the less appetite you have for religious wars.
-DevError: Only using tools written in languages that you like is not necessary.
-Sometimes you can just be the user of a piece of software. Programmers make
+
+`DevError`: Only using tools written in languages that you like is not necessary.
+
+Sometimes you can just be the user of a piece of software. Programmers make _the_ _worst_ users.
+
+Don't judge a language by the first time you tried and didn't
+like it.
+
+PHP / Java / Perl / `your_favourite_whipping_language` implementations are running the Internet as we (I) speak.
 
 ---
+class: center, middle
 # i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) CLIs
 ???
-**0.3**
+**0.3.0**
 
-Many times, as I'm in the middle of telling someone about this amazing new cli 
-tool I discovered...
+Many times, as I'm in the middle of telling someone about this amazing new CLI tool I've discovered and starred...
 
 ---
 background-image: url(resources/butterfly.gif)
@@ -118,19 +130,21 @@ Youtube Downloader
 **0.3.6**
 
 Good CLIs slip down into the fabric of the interface.
+
 Does anyone care what language diff or ack are written in, as long as they work?
+
 I'm going to resist the urge to spin this off into a lightning talk
 
 ---
 section: cookiecutter
 ![logo](resources/cookiecutter.png)
-![logo](resources/stars.png)
+![stars](resources/stars.png)
 ???
 **1.0**
 
-Ok, 10 slides in, let's start this talk!
+Ok, xx slides in, let's start this talk!
 
-Cookiecutter is a CLI that lets you template your projects.
+Cookiecutter is a CLI tool that lets you template your projects.
 
 - project generation tool
 
@@ -138,28 +152,38 @@ Cookiecutter is a CLI that lets you template your projects.
 
 - Jinja templated so that you can customise the template.
 
-- the CLI processes a template repo and prompts you for value to search replace
+- the CLI processes a template repo and prompts you for values to replace placeholder text
 
 ---
 ![logo](resources/cookiecutter.png)
-
 ![downloads](https://badge.fury.io/py/cookiecutter.png)
 ![travis](https://travis-ci.org/audreyr/cookiecutter.png?branch=master)
 ![version](https://pypip.in/d/cookiecutter/badge.png)
 ![coverage](https://coveralls.io/repos/audreyr/cookiecutter/badge.png?branch=master)
+![stars](resources/stars.png)
 
 slloccount
-coverage text
-cross platform
-scope consious
+
+coverage gif
+
+cross platform (appveyor img)
+
+scope conscious (unix way)
 
 ???
 **1.1**
 
-Medium sized, sort of teenaged open source project
+At 1000 stars, cookiecutter is medium sized.
+
+`changes` (a tool I write to automate releasing python libraries) is, by comparison, an infant, at 50 stars. More about `changes` later.
+
+It's sorta like a teenaged open source project (compared to the 10k stars luminaries like httpie, django and requests)
 
 ---
 # why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programming user
+
+starting a new project should be as easy as `git checkout -b new-feature` is.
+
 ???
 **1.2**
 
@@ -175,7 +199,7 @@ to make improvements to the structure and conventions of our applications.
 
 ---
 class: center, inverse
-# why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programmer
+# why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) hacking on cookiecutter
 
 Python
 
@@ -207,13 +231,16 @@ scratches my itch
 
 ???
 **1.4**
-Silence
+
+Segue into dayjob usecases
 
 ---
-# use case: microservice archictures
+# use case: microservice architectures
 
 libraries
+
 services
+
 ui components
 
 ???
@@ -234,11 +261,20 @@ out a release, the better.
 per-client instances of an application
 
 ---
-section: changes
-background-image: url(resources/changes.png)
+section: user to core
+background-image: url(resources/google-cookie_00405143.jpg)
+class: center
+
+## User to Complainer to Helper to Core
 
 ???
 **2.0**
+
+---
+background-image: url(resources/changes.png)
+
+???
+**2.1**
 
 Origin Story or the itch I wanted to scratch.
 
@@ -246,7 +282,7 @@ Origin Story or the itch I wanted to scratch.
 # from cookiecutter import generate
 
 ???
-**2.1**
+**2.2**
 
 In order to `start`, I _need_ to programatically generate a cookiecutter template (optimised for changes opinions about python packages).
 
@@ -257,7 +293,7 @@ In order to `start`, I _need_ to programatically generate a cookiecutter templat
 ## changes::start
 
 ???
-**2.2**
+**2.3**
 
 cookiecutter
 
@@ -270,7 +306,7 @@ changes flow
 git flow for packages
 
 ???
-**2.3**
+**2.4**
 
 Example usage: TODO (slide per thing)
 
