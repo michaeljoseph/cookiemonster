@@ -8,8 +8,8 @@
 - 0.3.1: butterfly
 - 0.3.2: rainbowstream
 - 0.3.3: jrnl
-- 0.3.5: youtube-dl
-- 0.3.6: lightning talk: how i learned to stop worrying
+- 0.3.4: youtube-dl
+- 0.3.5: lightning talk: how i learned to stop worrying
 
 [1: cookiecutter]
 - 1.0: cookiecutter overview

@@ -119,7 +119,7 @@ in faint disgust at the horror of running a program in an unattractive language.
 background-image: url(resources/youtube-dl.png)
 background-size: 100%
 ???
-**0.3.5**
+**0.3.4**
 
 Youtube Downloader
 
@@ -127,7 +127,7 @@ Youtube Downloader
 # lightning talk
 ## How I Learned To Stop Worrying And Love The CLI
 ???
-**0.3.6**
+**0.3.5**
 
 Good CLIs slip down into the fabric of the interface.
 
@@ -375,14 +375,14 @@ section: extra context
 # extra context overview
 
 ???
-**4.0**
+**3.0**
 
 So, let's take quick walk through the actual feature
 and the story of it's development and review.
 
 ---
 ???
-**4.1**
+**3.1**
 
 api + cli (context overrides)
 
@@ -397,7 +397,7 @@ user context (cookiecutter rc)
 https://github.com/audreyr/cookiecutter/pull/260
 
 ???
-**4.2**
+**3.2**
 
 Cmd-click
 
@@ -405,7 +405,7 @@ Cmd-click
 # lessons
 
 ???
-**4.3**
+**3.3**
 
 don't get carried away
 small changes are gentler on reviewers (open source context is expensive)
@@ -420,7 +420,7 @@ merge wars over changes that touch lots of files
 cherry picking is as fun and easy as it sounds
 
 ???
-**4.4**
+**3.4**
 
 Depends on sound commits
 
@@ -429,7 +429,7 @@ section: outro
 # summary
 
 ???
-**5.0**
+**4.0**
 
 Precis
 
@@ -439,7 +439,7 @@ align: center
 ![ama-slideshow](ama-slideshow.gif)
 
 ???
-**5.1**
+**4.1**
 Repeat the questions while you think of the answer.
 
 ---
@@ -452,7 +452,7 @@ https://github.com/audreyr/cookiecutter
 http://michaeljoseph.github.io/cookiemonster
 
 ???
-**5.2**
+**4.2**
 
 **The End**
 ---
