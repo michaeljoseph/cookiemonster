@@ -1,13 +1,14 @@
 section: intro
 slides: 10
-time: xx
+background-image: url(resources/sesame-street-cookie-monster-wallpapers_35947_1680x1050.jpg)
+class: inverse, center
+
 # cookiemonster
-### the evolution of open source software development community contribution
+
 http://michaeljoseph.github.io/cookiemonster
 
 @michaeljoseph
 
-![cookiemonster](resources/cookiemonster.gif)
 ???
 **0.0**
 
@@ -20,7 +21,19 @@ open source and other distributed software development methodologies
 engaging with a technical community
 
 ---
-class: center, inverse
+background-image: url(resources/puppet-blue-awesome.jpg)
+
+# cookiemonster
+### the evolution of open source software development community contribution
+---
+background-image: url(resources/google-cookie_00405143.jpg)
+class: inverse, center
+
+## User to Complainer to Helper to Core: the evolution of open source software development communities
+???
+
+---
+class: inverse
 title: about-me
 # about me
 ![profile](resources/mj.png)
@@ -68,40 +81,41 @@ Many times, as I'm in the middle of telling someone about this amazing new cli
 tool I discovered...
 
 ---
-![butterfly](resources/butterfly.png)
+background-image: url(resources/butterfly.gif)
 ???
 **0.3.1**
 
 butterfly web term, so you never have to leave your browser
 
 ---
-![rainbow](resources/rainbow.png)
+background-image: url(resources/rainbowstream.gif)
 ???
 **0.3.2**
 
-rainbow, a twitter client
+rainbowstream, a twitter client
 
 ---
-![fbcmd](resources/fbcmd.png)
+background-image: url(resources/jrnl.png)
 ???
 **0.3.3**
-
-fbcmd (written in PHP, spoiler alert)
-
----
-![jrnl](resources/jrnl.png)
-???
-**0.3.4**
 
 jrnl- a note taker.
 And then they ask me what language it's written in and wrinkle their noses
 in faint disgust at the horror of running a program in an unattractive language.
 
 ---
+background-image: url(resources/youtube-dl.png)
+background-size: 100%
+???
+**0.3.5**
+
+Youtube Downloader
+
+---
 # lightning talk
 ## How I Learned To Stop Worrying And Love The CLI
 ???
-**0.3.5**
+**0.3.6**
 
 Good CLIs slip down into the fabric of the interface.
 Does anyone care what language diff or ack are written in, as long as they work?
@@ -221,8 +235,7 @@ per-client instances of an application
 
 ---
 section: changes
-# origin story
-![changes](resources/changes.png)
+background-image: url(resources/changes.png)
 
 ???
 **2.0**
@@ -285,8 +298,13 @@ Triage
 ???
 **3.2**
 
-Git diff advertising company; comment advertising!!!
+!!!Git diff advertising company; comment advertising!!!
+
 Similar features, code reviews
+
+Review and encourage
+
+Re-review, defend yourself politely
 
 ---
 # Code
@@ -297,7 +315,11 @@ Similar features, code reviews
 Small, focused pull requests
 
 ---
-`python -c "print('@michaeljoseph' in open(AUTHORS.md).read())"`
+# AUTHORS.md
+
+```python
+print('@michaeljoseph' in open(AUTHORS.md).read())
+```
 
 ???
 **3.4**
@@ -315,13 +337,57 @@ Now to wield it with great responsibility.
 
 ---
 section: extra context
-# extra context
-https://github.com/audreyr/cookiecutter/pull/260
+# extra context overview
 
 ???
 **4.0**
 
+So, let's take quick walk through the actual feature
+and the story of it's development and review.
+
+---
+???
+**4.1**
+
+api + cli (context overrides)
+
+cookiecutter.json (template defaults)
+
+user context (cookiecutter rc)
+
+**project context** (overrides)
+
+---
+# extra context PR tour
+https://github.com/audreyr/cookiecutter/pull/260
+
+???
+**4.2**
+
 Cmd-click
+
+---
+# lessons
+
+???
+**4.3**
+
+don't get carried away
+small changes are gentler on reviewers (open source context is expensive)
+documentation is a first class citizen
+keep focused
+merge wars over changes that touch lots of files
+
+---
+# result
+## compromise, pragmatism and followup
+
+cherry picking is as fun and easy as it sounds
+
+???
+**4.4**
+
+Depends on sound commits
 
 ---
 section: outro
@@ -342,7 +408,7 @@ align: center
 Repeat the questions while you think of the answer.
 
 ---
-# credits
+# links
 
 http://cookiecutter.rtfd.org
 
@@ -354,3 +420,5 @@ http://michaeljoseph.github.io/cookiemonster
 **5.2**
 
 **The End**
+---
+background-image: url(resources/cookie-monster-28559-1440x900.jpg)
