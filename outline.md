@@ -33,25 +33,24 @@
 - 2.2: from cookiecutter import generate 
 - 2.3: changes::start
 - 2.4: changes::flow
-
-- 2.5: team open source
-- 3.1: triage
-- 3.2: review
-- 3.3: code
-- 3.4: AUTHORS
+- 2.5: back to the story
+- 2.6: triage
+- 2.7: review
+- 2.8: code
+- 2.9: AUTHORS
 - 2.10: core
 
 [3: extra context]
-- 4.0: extra context
-- 4.1: overview
-- 4.2: pr tour
-- 4.3: lessons
-- 4.4: result
+- 3.0: extra context
+- 3.1: overview
+- 3.2: pr tour
+- 3.3: lessons
+- 3.4: result
 
 [4: outro]
-- 5.0: summary
-- 5.1: questions
-- 5.2: credits
+- 4.0: summary
+- 4.1: questions
+- 4.2: credits
 
 
 [resources]

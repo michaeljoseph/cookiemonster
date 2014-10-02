@@ -311,11 +311,10 @@ git flow for packages
 Example usage: TODO (slide per thing)
 
 ---
-section: team open source
 ![back](resources/meanwhile.gif)
-
+# back to the story
 ???
-**3.0**
+**2.5**
 
 back to the story
 usage, issue search => triage
@@ -324,7 +323,7 @@ usage, issue search => triage
 # Triage
 
 ???
-**3.1**
+**2.6**
 
 Triage
 
@@ -332,7 +331,7 @@ Triage
 # Review
 
 ???
-**3.2**
+**2.7**
 
 !!!Git diff advertising company; comment advertising!!!
 
@@ -346,7 +345,7 @@ Re-review, defend yourself politely
 # Code
 
 ???
-**3.3**
+**2.8**
 
 Small, focused pull requests
 
@@ -358,7 +357,7 @@ print('@michaeljoseph' in open(AUTHORS.md).read())
 ```
 
 ???
-**3.4**
+**2.9**
 
 My bugs are on your computer....
 
@@ -366,7 +365,7 @@ My bugs are on your computer....
 # commit bit
 
 ???
-**3.5**
+**2.10**
 
 Largely on the back of extra context triage, I get the bit.
 Now to wield it with great responsibility.
