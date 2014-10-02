@@ -1,0 +1,11 @@
+language: python
+python:
+  - "2.7"
+before_install:
+  - source .env
+install:
+  - pip install -U -r requirements.txt
+script:
+  - build 
+after_success:
+  - publish
