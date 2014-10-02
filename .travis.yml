@@ -9,6 +9,6 @@ before_install:
 install:
   - pip install -U -r requirements.txt
 script:
-  - build 
+  - remarkable --noinput remark cookiemonster.md "Cookie Monster"
 after_success:
-  - publish
+  - ghp-import -p cookie-monster; rm -rf cookie-monster
