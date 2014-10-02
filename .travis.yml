@@ -1,3 +1,6 @@
+env:
+  global:
+    secure: 9bdda66aef60357aa027281220b07603cac5384b
 language: python
 python:
   - "2.7"
