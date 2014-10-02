@@ -1,12 +1,13 @@
 env:
   global:
-    secure: 9bdda66aef60357aa027281220b07603cac5384b
+  - secure: dE73r8rsHL7vW2ZCsM5mTyTIeQBNzVhcUMVscxYNhjmNg7dTm7pr1yUFsN4IDDClT04FUQJkJYNtyRFMkw4C6w5OcPA6uo7chiY5BHQmuw2SwOMTNiVg0f09nEtnq8QYbb8c18oP+Ahw7DsZzRScvEqvclTptHdTlAMUoYYO6Ts=
 language: python
 python:
-  - "2.7"
+- '2.7'
 install:
-  - pip install -U -r requirements.txt
+- pip install -U -r requirements.txt
 script:
-  - remarkable --noinput remark cookiemonster.md "Cookie Monster"
+- remarkable --noinput remark cookiemonster.md "Cookie Monster"
 after_success:
-  - ghp-import -p cookie-monster; rm -rf cookie-monster
+- ghp-import -n $(OUTPUTDIR)
+- git push -fq https://${GH_TOKEN}@github.com/$(TRAVIS_REPO_SLUG).git gh-pages > /dev/null
