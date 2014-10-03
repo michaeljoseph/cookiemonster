@@ -2,6 +2,8 @@ section: intro
 background-image: url(resources/sesame-street-cookie-monster-wallpapers_35947_1680x1050.jpg)
 class: inverse, bottom
 
+# how
+# me became
 # cookiemonster
 
 http://michaeljoseph.github.io/cookiemonster
@@ -14,7 +16,7 @@ cookiecutter
 
 open source and distributed software development workflows
 
-automation with CLIs
+automation (with CLIs)
 
 ---
 background-image: url(resources/google-cookie_00405143.jpg)
@@ -25,15 +27,16 @@ class: center
 ???
 **0.0.2**
 
-Open Source Project Roles
+My journey through the roles of an Open Source Project
 
 ---
 background-image: url(resources/puppet-blue-awesome.jpg)
 class: inverse, center, middle
 
-## an evolution
-## of open source software development
-## community contribution
+## an evolution of contributing
+## to the development
+## of an
+## open source software development
 
 ???
 **0.0.3**
@@ -46,10 +49,6 @@ class: inverse
 ???
 **0.1**
 
-I have, as usual, prepared this talk on very short notice
-So, be prepared for my slides to be unpolished.
-I shall attempt to make up for it with the words and exaggerated body language
-
 I'm, I guess what you'd call a backend developer.
 
 I self-identify as a Python developer, but I've written production code in
@@ -59,17 +58,25 @@ a lot of languages. Python is just the best :heart:
 class: center, inverse
 # polyglot
 
-VB
+## VB
+--
 
-Java
+## Java
+--
 
-PHP
+## PHP
+--
 
-C#
+## C#
+---
+class: center, inverse
+# polyglot
 
-Python
+## Python
+--
 
-Ruby (shush)
+## Ruby (shush)
+
 ???
 **0.2**
 
@@ -87,8 +94,12 @@ PHP / Java / Perl / `your_favourite_whipping_language` implementations are runni
 ---
 class: center, middle
 # i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) CLIs
+## because
+# i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) automation
 ???
 **0.3.0**
+
+Peter's opening talk: automation increases your change-making confidence 
 
 Many times, as I'm in the middle of telling someone about this amazing new CLI tool I've discovered and starred...
 
@@ -106,14 +117,14 @@ background-image: url(resources/rainbowstream.gif)
 
 rainbowstream, a twitter client
 
+it displays images in the terminal!!
+
 ---
 background-image: url(resources/jrnl.png)
 ???
 **0.3.3**
 
-jrnl- a note taker.
-And then they ask me what language it's written in and wrinkle their noses
-in faint disgust at the horror of running a program in an unattractive language.
+jrnl- a note taker that uses a simple entry timestamped text file, supports tags and JSON exports.
 
 ---
 background-image: url(resources/youtube-dl.png)
@@ -121,10 +132,14 @@ background-size: 100%
 ???
 **0.3.4**
 
-Youtube Downloader
+YouTube Downloader
+
+And then they ask me what language it's written in and wrinkle their noses
+in faint disgust at the horror of running a program in an unattractive language.
 
 ---
-# lightning talk
+class: inverse, center
+# lightning talk ?
 ## How I Learned To Stop Worrying And Love The CLI
 ???
 **0.3.5**
@@ -133,16 +148,19 @@ Good CLIs slip down into the fabric of the interface.
 
 Does anyone care what language diff or ack are written in, as long as they work?
 
-I'm going to resist the urge to spin this off into a lightning talk
+I'm going to resist the urge to spin this off into a lightning talk.
 
 ---
 section: cookiecutter
-![logo](resources/cookiecutter.png)
-![stars](resources/stars.png)
+class: bottom, center
+background-image: url(resources/cookiecutter.png)
+
+## https://github.com/audreyr/cookiecutter
+
 ???
 **1.0**
 
-Ok, xx slides in, let's start this talk!
+Ok, 17 slides in, let's start this talk!
 
 Cookiecutter is a CLI tool that lets you template your projects.
 
@@ -155,21 +173,9 @@ Cookiecutter is a CLI tool that lets you template your projects.
 - the CLI processes a template repo and prompts you for values to replace placeholder text
 
 ---
-![logo](resources/cookiecutter.png)
-![downloads](https://badge.fury.io/py/cookiecutter.png)
-![travis](https://travis-ci.org/audreyr/cookiecutter.png?branch=master)
-![version](https://pypip.in/d/cookiecutter/badge.png)
-![coverage](https://coveralls.io/repos/audreyr/cookiecutter/badge.png?branch=master)
-![stars](resources/stars.png)
+background-image: url(resources/stars.png)
 
-slloccount
-
-coverage gif
-
-cross platform (appveyor img)
-
-scope conscious (unix way)
-
+![cookiecutter](resources/cookiecutter.png)
 ???
 **1.1**
 
@@ -180,9 +186,23 @@ At 1000 stars, cookiecutter is medium sized.
 It's sorta like a teenaged open source project (compared to the 10k stars luminaries like httpie, django and requests)
 
 ---
+background-image: url(resources/sloccount.png)
+???
+Limiting scope is a feature, so the codebase is relatively small  
+---
+background-image: url(resources/appveyor.png)
+
+???
+Inclusive: Python 3 and Windows
+---
+class: center
 # why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programming user
 
-starting a new project should be as easy as `git checkout -b new-feature` is.
+## Starting a new project should be as easy as
+
+```bash
+git checkout -b new-feature
+```
 
 ???
 **1.2**
@@ -201,15 +221,7 @@ to make improvements to the structure and conventions of our applications.
 class: center, inverse
 # why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) hacking on cookiecutter
 
-Python
-
-Command line i/o
-
-File i/o
-
-APIs
-
-Modules
+## Python (obvs)
 
 ???
 **1.3**
@@ -217,31 +229,68 @@ Modules
 It's written in Python
 
 It's made up of the bread and butter backend programming of my youth.
+--
 
+## Command line I/O
+
+---
+class: center, inverse
+# why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) hacking on cookiecutter
+## File I/O
+--
+
+## APIs and Modules
+???
+
+Leveraging the awesome open source python ecosystem
+---
+class: right
+# why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programmer
+
+## well documented (http://cookiecutter.rtfd.org)
+---
+background-image: url(resources/docs.gif)
+background-size: 100%
+---
+class: bottom, inverse
+background-image: url(resources/coveralls.png)
+# we gots you covered
+???
+Well tested
+---
+background-image: url(resources/tested.png)
+
+???
+2 : 1 ratio of test to application code
 ---
 # why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programmer
 
-well documented (http://changes.rtfd.org)
-
-well tested ![coverage](https://coveralls.io/repos/audreyr/cookiecutter/badge.png?branch=master)
-
-cool community (users, deveopers, core, BFDL)
-
-scratches my itch
+## enthusiastic and inclusive community
+---
+background-image:url(resources/issues.png)
+---
+background-image:url(resources/pulls.png)
+---
+background-image:url(resources/milestones.png)
+---
+class: inverse
+background-image:url(resources/itch.jpg)
+# why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programmer
 
 ???
 **1.4**
 
+Scratches my itches
 Segue into dayjob usecases
 
 ---
+background-image: url(resources/microservices.png)
+
+---
+class: center
 # use case: microservice architectures
 
-libraries
-
-services
-
-ui components
+## libraries, services, ui components
 
 ???
 **1.5**
@@ -253,6 +302,7 @@ and the faster and frictionlessly (aka smoothly) you can start a new project, or
 out a release, the better.
 
 ---
+class: center
 # use case: web app installations
 
 ???
@@ -260,8 +310,32 @@ out a release, the better.
 
 per-client instances of an application
 
+allows codification of conventions
+
+opportunity to feed back improvements to the template
 ---
-section: user to core
+class: inverse
+background-image: url(resources/ccc.png)
+# my cookiecutter template
+
+???
+Python packages, the way I like it.
+---
+class: inverse, middle, center
+# cookiecutter demo
+---
+background-image: url(resources/cookiecutter-demo.gif)
+
+???
+So, that's cool, but not quite enough for me.
+
+I can't script thisI don't want to
+---
+class: inverse, bottom, left
+background-image:url(resources/itch.jpg)
+# my itches 
+???
+---
 background-image: url(resources/google-cookie_00405143.jpg)
 class: center
 
@@ -270,6 +344,8 @@ class: center
 ???
 **2.0**
 
+This part of the story chronicles my personal journey
+from an outsider, to a member of the cookiecutter community
 ---
 background-image: url(resources/changes.png)
 
@@ -278,8 +354,29 @@ background-image: url(resources/changes.png)
 
 Origin Story or the itch I wanted to scratch.
 
+I built changes so I could stop repeating myself
+everytime I wanted to cut a new release of a python
+package.
 ---
-# from cookiecutter import generate
+# changes demo
+---
+background-image: url(resources/changes-demo.gif)
+---
+class: top, center, inverse
+background-image: url(resources/changes-start.png)
+# changes::start
+
+???
+**2.3**
+
+Like all good things, changes::start started life
+as a small shell script
+TODO>>>>
+
+---
+class: inverse
+background-image: url(resources/cookiecutter.main.cookiecutter.png)
+# from cookiecutter.main import cookiecutter
 
 ???
 **2.2**
@@ -290,28 +387,19 @@ In order to `start`, I _need_ to programatically generate a cookiecutter templat
 > resource, is only a naturally crafter cli command away
 
 ---
-## changes::start
-
-???
-**2.3**
-
-cookiecutter
-
-hub init
-
-changes flow
----
-## changes:flow
-
-git flow for packages
+class: top, center, inverse
+background-image: url(resources/changes-flow.png)
+# changes:flow
 
 ???
 **2.4**
 
-Example usage: TODO (slide per thing)
+Think `git-flow` for library release management and development
+Upload feature branches as intermediate library versions.
 
 ---
-![back](resources/meanwhile.gif)
+class: inverse, middle, center
+background-image: url(resources/puppet-blue-awesome.jpg)
 # back to the story
 ???
 **2.5**
@@ -320,7 +408,7 @@ back to the story
 usage, issue search => triage
 
 ---
-# Triage
+background-image: url(resources/triage.jpg)
 
 ???
 **2.6**
@@ -328,6 +416,8 @@ usage, issue search => triage
 Triage
 
 ---
+class: right
+background-image: url(resources/review.jpg)
 # Review
 
 ???
@@ -353,7 +443,7 @@ Small, focused pull requests
 # AUTHORS.md
 
 ```python
-print('@michaeljoseph' in open(AUTHORS.md).read())
+assert '@michaeljoseph' in open(AUTHORS.md).read()
 ```
 
 ???
@@ -362,8 +452,7 @@ print('@michaeljoseph' in open(AUTHORS.md).read())
 My bugs are on your computer....
 
 ---
-# commit bit
-
+background-image: url(resources/core.png)
 ???
 **2.10**
 

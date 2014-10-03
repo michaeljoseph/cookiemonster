@@ -22,3 +22,9 @@ be open source software development == distributed team development (text comms)
 automation
 [abstract promises]
 
+- [The Unix Way]
+- Onion Programming
+- Doing One Thing Well
+- Keeping Stupid And Simple
+- Adding [One More Layer Of Abstraction]
+
