@@ -10,13 +10,16 @@ http://michaeljoseph.github.io/cookiemonster
 ???
 **0.0.1**
 
-3 things:
+Hi, My name is Michael.
 
-cookiecutter
+And I'm a cookiemonster.
 
-open source and distributed software development workflows
+Cos me love cookies.
 
-automation (with CLIs)
+Ground rules:
+
+- me love heckers
+- questions and interjections and interruptions are encouraged
 
 ---
 background-image: url(resources/google-cookie_00405143.jpg)
@@ -27,7 +30,7 @@ class: center
 ???
 **0.0.2**
 
-My journey through the roles of an Open Source Project
+My journey through the roles of the cookiecutter Open Source Project
 
 ---
 background-image: url(resources/puppet-blue-awesome.jpg)
@@ -41,11 +44,12 @@ class: inverse, center, middle
 ???
 **0.0.3**
 
+Open Source Communities and
 ---
 class: inverse
 # about me
-![profile](resources/mj.png)
-![profile](resources/juggler.jpeg)
+.left[ ![profile](resources/mj.png) ]
+.right[ ![profile](resources/juggler.jpeg) ]
 ???
 **0.1**
 
@@ -53,6 +57,8 @@ I'm, I guess what you'd call a backend developer.
 
 I self-identify as a Python developer, but I've written production code in
 a lot of languages. Python is just the best :heart:
+
+
 
 ---
 class: center, inverse
@@ -140,7 +146,7 @@ in faint disgust at the horror of running a program in an unattractive language.
 ---
 class: inverse, center
 # lightning talk ?
-## How I Learned To Stop Worrying And Love The CLI
+## How me Learned To Stop Worrying And Love The CLI
 ???
 **0.3.5**
 
@@ -196,7 +202,7 @@ background-image: url(resources/appveyor.png)
 Inclusive: Python 3 and Windows
 ---
 class: center
-# why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programming user
+# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programming user
 
 ## Starting a new project should be as easy as
 
@@ -219,7 +225,7 @@ to make improvements to the structure and conventions of our applications.
 
 ---
 class: center, inverse
-# why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) hacking on cookiecutter
+# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) hacking on cookiecutter
 
 ## Python (obvs)
 
@@ -235,7 +241,7 @@ It's made up of the bread and butter backend programming of my youth.
 
 ---
 class: center, inverse
-# why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) hacking on cookiecutter
+# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) hacking on cookiecutter
 ## File I/O
 --
 
@@ -245,7 +251,7 @@ class: center, inverse
 Leveraging the awesome open source python ecosystem
 ---
 class: right
-# why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programmer
+# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a developer
 
 ## well documented (http://cookiecutter.rtfd.org)
 ---
@@ -263,7 +269,7 @@ background-image: url(resources/tested.png)
 ???
 2 : 1 ratio of test to application code
 ---
-# why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programmer
+# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programmer
 
 ## enthusiastic and inclusive community
 ---
@@ -273,9 +279,21 @@ background-image:url(resources/pulls.png)
 ---
 background-image:url(resources/milestones.png)
 ---
+class: inverse, center
+# Philosophy
+--
+
+## The Unix Way
+## Doing One Thing Well
+--
+
+## Onion Programming
+## Adding One More Layer Of Abstraction
+---
+
 class: inverse
 background-image:url(resources/itch.jpg)
-# why i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programmer
+# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programmer
 
 ???
 **1.4**
@@ -461,6 +479,7 @@ Now to wield it with great responsibility.
 
 ---
 section: extra context
+class: center
 # extra context overview
 
 ???
@@ -468,39 +487,39 @@ section: extra context
 
 So, let's take quick walk through the actual feature
 and the story of it's development and review.
+---
+class: center
+# API + CLI (context overrides)
+---
+class: center
+# cookiecutter.json (template defaults)
+---
+class: center
+# user context (`~/.cookiecutterrc`)
+---
+class: inverse, center
+# we need **project context** (overrides)
 
 ---
-???
-**3.1**
-
-api + cli (context overrides)
-
-cookiecutter.json (template defaults)
-
-user context (cookiecutter rc)
-
-**project context** (overrides)
-
----
+class: center
 # extra context PR tour
 https://github.com/audreyr/cookiecutter/pull/260
 
 ???
 **3.2**
 
-Cmd-click
+Splat+}
 
 ---
+class: inverse, center
 # lessons
-
-???
-**3.3**
 
 don't get carried away
 small changes are gentler on reviewers (open source context is expensive)
 documentation is a first class citizen
 keep focused
 merge wars over changes that touch lots of files
+
 
 ---
 # result
@@ -511,26 +530,27 @@ cherry picking is as fun and easy as it sounds
 ???
 **3.4**
 
-Depends on sound commits
+>>>>>>>>
 
 ---
 section: outro
 # summary
 
-???
-**4.0**
-
-Precis
-
+cookiecutter is cool, because everyone loves cookies
 ---
-align: center
+# summary
+open source and distributed software development workflows
+---
+# summary
+automation (with CLIs)
+---
+class: top, center
 # AMA
-![ama-slideshow](ama-slideshow.gif)
-
-???
-**4.1**
-Repeat the questions while you think of the answer.
-
+![ama](resources/ama-cookiemonster.gif)
+---
+class: inverse, top, center
+# AMA
+![ama](resources/eatcookie.gif)
 ---
 # links
 
@@ -541,8 +561,10 @@ https://github.com/audreyr/cookiecutter
 http://michaeljoseph.github.io/cookiemonster
 
 ???
-**4.2**
 
 **The End**
 ---
+class: inverse
 background-image: url(resources/cookie-monster-28559-1440x900.jpg)
+
+# me out
