@@ -43,13 +43,11 @@ class: inverse, center, middle
 
 ???
 **0.0.3**
-
-Open Source Communities and
 ---
 class: inverse
-# about me
-.left[ ![profile](resources/mj.png) ]
-.right[ ![profile](resources/juggler.jpeg) ]
+background-image:url(resources/mj.png)
+# me talk about me
+
 ???
 **0.1**
 
@@ -57,8 +55,6 @@ I'm, I guess what you'd call a backend developer.
 
 I self-identify as a Python developer, but I've written production code in
 a lot of languages. Python is just the best :heart:
-
-
 
 ---
 class: center, inverse
@@ -73,7 +69,20 @@ class: center, inverse
 ## PHP
 --
 
-## C#
+## C Sharp (thanks Markdown)
+???
+I've been writing production code since the turn of the century.
+Which, I guess makes me a greybeard. Even though I only have
+one in my moustache right now.
+
+And I've seen (and been part of) waxing and waning trends.
+
+Obviously not that kind of waxing...
+
+Perhaps not as obvious, is that my beard is an intentional
+part of this act...
+You're welcome guys.
+Also, the store was out of blue dye, so...
 ---
 class: center, inverse
 # polyglot
@@ -99,15 +108,15 @@ PHP / Java / Perl / `your_favourite_whipping_language` implementations are runni
 
 ---
 class: center, middle
-# i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) CLIs
+# me ![heart](resources/heart.png) CLIs
 ## because
-# i ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) automation
+# me ![heart](resources/heart.png) automation
 ???
 **0.3.0**
 
 Peter's opening talk: automation increases your change-making confidence 
 
-Many times, as I'm in the middle of telling someone about this amazing new CLI tool I've discovered and starred...
+Many times, as I'm in the middle of telling someone about this amazing new CLI tool I've discovered and starred, like...
 
 ---
 background-image: url(resources/butterfly.gif)
@@ -202,7 +211,7 @@ background-image: url(resources/appveyor.png)
 Inclusive: Python 3 and Windows
 ---
 class: center
-# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programming user
+# why me ![heart](resources/heart.png) cookiecutter as a programming user
 
 ## Starting a new project should be as easy as
 
@@ -225,7 +234,7 @@ to make improvements to the structure and conventions of our applications.
 
 ---
 class: center, inverse
-# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) hacking on cookiecutter
+# why me ![heart](resources/heart.png) hacking on cookiecutter
 
 ## Python (obvs)
 
@@ -241,17 +250,7 @@ It's made up of the bread and butter backend programming of my youth.
 
 ---
 class: center, inverse
-# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) hacking on cookiecutter
-## File I/O
---
-
-## APIs and Modules
-???
-
-Leveraging the awesome open source python ecosystem
----
-class: right
-# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a developer
+# why me ![heart](resources/heart.png) cookiecutter as a developer
 
 ## well documented (http://cookiecutter.rtfd.org)
 ---
@@ -269,7 +268,7 @@ background-image: url(resources/tested.png)
 ???
 2 : 1 ratio of test to application code
 ---
-# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programmer
+# why me ![heart](resources/heart.png) cookiecutter as a programmer
 
 ## enthusiastic and inclusive community
 ---
@@ -293,12 +292,13 @@ class: inverse, center
 
 class: inverse
 background-image:url(resources/itch.jpg)
-# why me ![heart](https://github.global.ssl.fastly.net/images/icons/emoji/heart.png?v5) cookiecutter as a programmer
+# why me ![heart](resources/heart.png) cookiecutter as a programmer
 
 ???
 **1.4**
 
 Scratches my itches
+
 Segue into dayjob usecases
 
 ---
@@ -320,7 +320,7 @@ and the faster and frictionlessly (aka smoothly) you can start a new project, or
 out a release, the better.
 
 ---
-class: center
+class: inverse, center
 # use case: web app installations
 
 ???
@@ -347,12 +347,13 @@ background-image: url(resources/cookiecutter-demo.gif)
 ???
 So, that's cool, but not quite enough for me.
 
-I can't script thisI don't want to
+Because I can't script it 
 ---
 class: inverse, bottom, left
 background-image:url(resources/itch.jpg)
 # my itches 
 ???
+Which makes me itchy.
 ---
 background-image: url(resources/google-cookie_00405143.jpg)
 class: center
@@ -361,12 +362,14 @@ class: center
 
 ???
 **2.0**
+So, that's how I got into cookiecutter
 
 This part of the story chronicles my personal journey
 from an outsider, to a member of the cookiecutter community
 ---
+class: middle, right
 background-image: url(resources/changes.png)
-
+# origin story
 ???
 **2.1**
 
@@ -376,6 +379,7 @@ I built changes so I could stop repeating myself
 everytime I wanted to cut a new release of a python
 package.
 ---
+class: inverse, middle, center
 # changes demo
 ---
 background-image: url(resources/changes-demo.gif)
@@ -388,8 +392,17 @@ background-image: url(resources/changes-start.png)
 **2.3**
 
 Like all good things, changes::start started life
-as a small shell script
-TODO>>>>
+as a small shell script.
+---
+background-image: url(resources/small-shell-script.jpg)
+
+???
+Turns out, that this wasn't an empty threat.
+
+You may be aware of this phenomenon under it's hashtagged name:
+devops.
+
+Sorry, DBAs.
 
 ---
 class: inverse
@@ -422,8 +435,9 @@ background-image: url(resources/puppet-blue-awesome.jpg)
 ???
 **2.5**
 
-back to the story
-usage, issue search => triage
+First I search the issues, like a good person
+
+Found many attempts, nothing merged
 
 ---
 background-image: url(resources/triage.jpg)
@@ -432,7 +446,6 @@ background-image: url(resources/triage.jpg)
 **2.6**
 
 Triage
-
 ---
 class: right
 background-image: url(resources/review.jpg)
@@ -450,14 +463,14 @@ Review and encourage
 Re-review, defend yourself politely
 
 ---
+class: center
 # Code
-
+## small changeset, many pulls
 ???
 **2.8**
 
-Small, focused pull requests
-
 ---
+class: center
 # AUTHORS.md
 
 ```python
@@ -495,7 +508,7 @@ class: center
 # cookiecutter.json (template defaults)
 ---
 class: center
-# user context (`~/.cookiecutterrc`)
+# user context (~/.cookiecutterrc)
 ---
 class: inverse, center
 # we need **project context** (overrides)
@@ -514,14 +527,19 @@ Splat+}
 class: inverse, center
 # lessons
 
-don't get carried away
-small changes are gentler on reviewers (open source context is expensive)
-documentation is a first class citizen
-keep focused
-merge wars over changes that touch lots of files
+## don't get carried away
+--
 
-
+## small changes are gentler on reviewers (open source context is expensive)
 ---
+class: center
+# lessons
+## documentation is a first class citizen
+--
+
+## keep focused
+---
+class: center
 # result
 ## compromise, pragmatism and followup
 
@@ -530,19 +548,19 @@ cherry picking is as fun and easy as it sounds
 ???
 **3.4**
 
->>>>>>>>
-
 ---
 section: outro
+class: inverse, center
 # summary
-
-cookiecutter is cool, because everyone loves cookies
+## use cookiecutter, because everyone loves cookies
 ---
+class: inverse, center
 # summary
-open source and distributed software development workflows
+## be open source
 ---
+class: inverse, center
 # summary
-automation (with CLIs)
+## automate
 ---
 class: top, center
 # AMA
@@ -551,18 +569,6 @@ class: top, center
 class: inverse, top, center
 # AMA
 ![ama](resources/eatcookie.gif)
----
-# links
-
-http://cookiecutter.rtfd.org
-
-https://github.com/audreyr/cookiecutter
-
-http://michaeljoseph.github.io/cookiemonster
-
-???
-
-**The End**
 ---
 class: inverse
 background-image: url(resources/cookie-monster-28559-1440x900.jpg)
