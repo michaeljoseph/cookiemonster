@@ -107,6 +107,10 @@ like it.
 PHP / Java / Perl / `your_favourite_whipping_language` implementations are running the Internet as we (I) speak.
 
 ---
+class: inverse, center, middle
+# me live in terminal
+## so...
+---
 class: center, middle
 # me ![heart](resources/heart.png) CLIs
 ## because
@@ -347,7 +351,7 @@ background-image: url(resources/cookiecutter-demo.gif)
 ???
 So, that's cool, but not quite enough for me.
 
-Because I can't script it 
+Because I can't automate it 
 ---
 class: inverse, bottom, left
 background-image:url(resources/itch.jpg)
@@ -454,13 +458,11 @@ background-image: url(resources/review.jpg)
 ???
 **2.7**
 
-!!!Git diff advertising company; comment advertising!!!
+***Git diff advertising company; adverts on diff views***
 
 Similar features, code reviews
 
 Review and encourage
-
-Re-review, defend yourself politely
 
 ---
 class: center
